@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Ghibli Note</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="top_text">TOP</string>
+    <string name="favorite_text">FAVORITE</string>
+    <string name="note_text">NOTE</string>
+    <!--    スプラッシュ画面-->
+    <string name="splash_title">GHIBLI NOTE</string>
+    <!--    ツールバーテキスト-->
+    <string name="tool_bar_title">GHIBLI NOTE</string>
+    <!--    詳細画面-->
+    <string name="detail_original_title">Original Title</string>
+    <string name="detail_director_title">Director</string>
+    <string name="detail_producer_title">Producer</string>
+    <string name="detail_release_date_title">Release Date</string>
+    <string name="detail_rt_score_title">Rt Score</string>
+    <string name="detail_date_title">Date</string>
+    <string name="detail_score_title">Score</string>
+    <string name="detail_memo_title">Memo</string>
+    <string name="detail_memo_hint_text">impression\n-Favorite scene\n-Lines that I found interesting</string>
+    <string name="detail_save_button_text">save</string>
+
+    <!--    通信エラー-->
+    <string name="communication_error_dialog_title">Communication Error</string>
+    <string name="communication_error_dialog_message">Please communicate in a place with good environment.</string>
+    <string name="communication_error_dialog_positive_button">OK</string>
+
+    <!--    通信エラー-->
+    <string name="no_results_text">No results to display.</string>
 </resources>

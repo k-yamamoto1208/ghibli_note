@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    TOP-->
+    <dimen name="top_english_title_text_size">17sp</dimen>
+    <dimen name="top_original_title_text_size">10sp</dimen>
+    <dimen name="top_description_text_size">10sp</dimen>
+
+    <!--    詳細-->
+    <dimen name="detail_english_title_text_size">24sp</dimen>
+    <dimen name="detail_description_text_size">14sp</dimen>
+    <dimen name="detail_list_title_text_size">18sp</dimen>
+    <dimen name="detail_list_context_text_size">14sp</dimen>
+    <dimen name="detail_save_button_text_size">20sp</dimen>
+
+    <!--    メモ一覧-->
+    <dimen name="memo_english_title_text_size">14sp</dimen>
+    <dimen name="memo_original_title_text_size">10sp</dimen>
+    <dimen name="memo_description_text_size">10sp</dimen>
+
+    <dimen name="no_results_text_size">24sp</dimen>
+</resources>

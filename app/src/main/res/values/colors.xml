@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="transparent">#00000000</color>
+    <color name="english_title">#1B1B1B</color>
+    <color name="original_title">#787878</color>
+    <color name="description">#787878</color>
+    <color name="search_view_background">#E9E9E9</color>
+    <color name="detail_list_context">#787878</color>
+    <color name="detail_date_score_memo_title">#21AABA</color>
+    <color name="detail_memo_edit_text_container">#F0F0F0</color>
+    <color name="detail_save_button_container">#21AABA</color>
+
 </resources>

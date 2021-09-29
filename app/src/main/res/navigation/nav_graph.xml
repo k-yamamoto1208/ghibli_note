@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/top_item">
+
+
+    <fragment
+        android:id="@+id/top_item"
+        android:name="com.example.ghiblinote.view.top.TopFragment"
+        android:label="fragment_top"
+        tools:layout="@layout/fragment_top">
+        <action
+            android:id="@+id/top_to_connection_error_dialog"
+            app:destination="@+id/connection_error_dialog_fragment" />
+        <action
+            android:id="@+id/top_to_film_detail"
+            app:destination="@id/film_detail_item" />
+    </fragment>
+    <fragment
+        android:id="@+id/film_detail_item"
+        android:name="com.example.ghiblinote.view.filmDetail.FilmDetailFragment"
+        android:label="FilmDetailFragment"
+        tools:layout="@layout/fragment_film_detail">
+        <argument
+            android:name="film_id"
+            app:argType="string" />
+        <action
+            android:id="@+id/detail_to_top"
+            app:destination="@id/top_item"
+            app:popUpTo="@id/top_item" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/favorite_item"
+        android:name="com.example.ghiblinote.view.favorite.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite">
+        <action
+            android:id="@+id/favorite_list_to_detail"
+            app:destination="@id/film_detail_item" />
+    </fragment>
+    <fragment
+        android:id="@+id/memo_list_item"
+        android:name="com.example.ghiblinote.view.note.MemoListFragment"
+        android:label="fragment_note_list"
+        tools:layout="@layout/fragment_memo_list">
+        <action
+            android:id="@+id/memo_list_to_detail"
+            app:destination="@id/film_detail_item" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/connection_error_dialog_fragment"
+        android:name="com.example.ghiblinote.utils.ConnectionErrorDialogFragment"
+        android:label="ConnectionErrorDialogFragment" />
+</navigation>

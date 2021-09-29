@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/top_item"
+        android:icon="@drawable/ic_baseline_search_40"
+        android:title="@string/top_text" />
+
+    <item
+        android:id="@+id/favorite_item"
+        android:icon="@drawable/ic_baseline_star_40"
+        android:title="@string/favorite_text" />
+
+    <item
+        android:id="@+id/memo_list_item"
+        android:icon="@drawable/ic_baseline_feed_40"
+        android:title="@string/note_text" />
+
+</menu>

@@ -17,7 +17,6 @@
 - Room
 - Dagger Hilt
 - Navigation
-- Glide
 - GridLayout
 
 ## License
